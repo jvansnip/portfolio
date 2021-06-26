@@ -7,6 +7,10 @@ body{
     margin: auto;
 }
 
+a{
+    color: white;
+}
+
 header{
     border-bottom: white;
     border-bottom-style: solid;
@@ -16,6 +20,7 @@ header{
 
 img{
     max-width: 80%;
+    box-shadow: 5px 5px 5px grey;
 }
 
 
@@ -26,11 +31,10 @@ img{
     border-bottom: white;
     border-bottom-style: solid;
     border-bottom-width:thin;
-    
 }
 
 .baseProjectArea{
-    padding: 0px 10px 30px 10px;
+    padding: 0px 30px 30px 30px;
     text-align: center;
 }
 
