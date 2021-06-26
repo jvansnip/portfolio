@@ -1,0 +1,62 @@
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Century Gothic, helvetica, Arial, sans-serif;
+    max-width: 2000px;
+    margin: auto;
+}
+
+header{
+    border-bottom: white;
+    border-bottom-style: solid;
+    border-bottom-width:thin;
+}
+
+
+img{
+    max-width: 80%;
+}
+
+
+.projectRow {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-bottom: white;
+    border-bottom-style: solid;
+    border-bottom-width:thin;
+    
+}
+
+.baseProjectArea{
+    padding: 0px 10px 30px 10px;
+    text-align: center;
+}
+
+.areaBlack{
+    background-color: black;
+}
+
+.areaViolet{
+    background-color: blueviolet;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    
+    body{
+        text-align: center;
+    }
+
+    .projectRow{
+        margin: auto;
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+
+}
+
