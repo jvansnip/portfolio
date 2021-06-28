@@ -35,6 +35,12 @@ a{
     border-bottom-width:thin;
 }
 
+.topline{
+    border-top: white;
+    border-top-style: solid;
+    border-top-width:thin;
+}
+
 .indexBackground{
     height: 100vh;
     background-image: 
@@ -56,9 +62,6 @@ a{
     align-items: center;
     text-align: center;
     justify-content: center;
-    border-top: white;
-    border-top-style: solid;
-    border-top-width:thin;
     font-size: xx-large;
 }
 
@@ -128,26 +131,14 @@ img{
 
 
 
-.baseProjectArea{
-    padding: 0px 30px 30px 30px;
-    text-align: center;
-}
-
-.areaBlack{
-    background-color: black;
-}
-
-.areaViolet{
-    background-color: blueviolet;
-}
-
-
-
-
 @media only screen and (max-width: 800px) {
     
     body{
         text-align: center;
+    }
+
+    .mobilePaddingContainer1{
+        padding: 20px 10px 20px 10px;  
     }
 
     .projectRow{
@@ -168,13 +159,10 @@ img{
         font-size: 15px;
     }
 
-
-
     .linearGradient{
-       padding: 20px 10px 20px 10px;  
-       margin: 20px 0px 20px 0px;      
-       border-radius: 0%;
-      
+        max-width: 100%; 
+        margin: 20px 0px 20px 0px;      
+        border-radius: 0%;
     }
 
 
@@ -196,7 +184,9 @@ img{
     
     .textFrame{
         margin-top: 20px;
+        font-size: large;
     }
+
 
 }
 
