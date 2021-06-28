@@ -21,6 +21,8 @@ a{
 .profession{
     font-size: 50px;
     padding-top: 20vh;
+    animation-name: textSlideIn;
+    animation-duration: 2s;
 }
 
 .myName{
@@ -32,6 +34,7 @@ a{
     border-bottom-style: solid;
     border-bottom-width:thin;
 }
+
 .indexBackground{
     height: 100vh;
     background-image: 
@@ -53,16 +56,11 @@ a{
     align-items: center;
     text-align: center;
     justify-content: center;
-    border-bottom: white;
-    border-bottom-style: solid;
-    border-bottom-width:thin;
     border-top: white;
     border-top-style: solid;
     border-top-width:thin;
     font-size: xx-large;
 }
-
-
 
 
 .projectRow {
@@ -92,7 +90,6 @@ a{
     border-width: 1px;
     border-style: solid;
     max-width: 450px;
-
 }
 
 .blackSquare{
@@ -161,6 +158,7 @@ img{
 
     .indexBackground{
         background-position:center;
+        margin-bottom: 20px;
     }
     .profession{
         font-size: 20px;
@@ -172,9 +170,33 @@ img{
 
 
 
-
-    .blackSquare{
-        flex-direction: column;
+    .linearGradient{
+       padding: 20px 10px 20px 10px;  
+       margin: 20px 0px 20px 0px;      
+       border-radius: 0%;
+      
     }
+
+
+   .blackSquare{
+        max-width: 100%;
+        margin: 0px;
+        padding: 0px 0px 15px 0px;
+
+    }
+
+    .projectImage{
+        max-width: 80%;
+    }
+    
+    .projectText{
+        margin-left: 0px;
+        max-width: 100%;
+    }
+    
+    .textFrame{
+        margin-top: 20px;
+    }
+
 }
 
