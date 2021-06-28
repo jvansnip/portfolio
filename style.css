@@ -15,7 +15,6 @@ a{
     align-items: center;
     justify-content: center;
     align-content: center;
-
 }
 
 .profession{
@@ -53,6 +52,9 @@ a{
     border-bottom-width:thin;
 }
 
+.indexBackground img{
+    margin: 20px;
+}
 .textFrame{
     background-color: #202124;
     display: flex;
@@ -77,9 +79,7 @@ a{
 }
 
 .linearGradient{
-    max-width: 30%;
-    margin-right: 0px;
-    margin-left: 0px;
+    display: flex;
     margin-top: 80px;
     margin-bottom: 80px;
     padding: 30px 0px 30px 60px;
@@ -92,44 +92,44 @@ a{
     border-radius: 5%;
     border-width: 1px;
     border-style: solid;
-    max-width: 450px;
+    max-width: 30%;
 }
 
 .blackSquare{
-    background-color: #202124;
+    background-color: #3C4043;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: -120px;
+    margin-right: -15%;
     padding-bottom: 20px;
     border-style: solid;
     border-width: 1px;
-    max-width: 500px;
-    height: 250px;
+    width: 110%;
 }
 
 
-img{
-    max-width: 100%;
-    margin:5px;
-}
 
-.projectImage{
-    max-width: 50%;
-    
-
+.projectImage img{
+    max-width: 90%;
+    box-shadow: 10px 10px 0px 0px black;
 }
 
 .projectText{
-    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    flex-grow: 0;
-    max-width: 60%;
 }
 
 
+footer{
+    display: flex;
+    font-size: xx-small;
+    background: #3C4043;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
 
 @media only screen and (max-width: 800px) {
     
@@ -185,6 +185,7 @@ img{
     .textFrame{
         margin-top: 20px;
         font-size: large;
+       
     }
 
 
