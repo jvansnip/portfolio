@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: white;
     color: white;
     font-family: 'century gothic', sans-serif;
     max-width: 2000px;
@@ -43,7 +43,7 @@ a{
 .indexBackground{
     height: 100vh;
     background-image: 
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
         url("Images/laptopData.jpg");
     background-size:cover;
     color: white;
@@ -56,7 +56,7 @@ a{
     margin: 20px;
 }
 .textFrame{
-    background-color: #202124;
+    background-color: #002060;
     display: flex;
     max-width: 100%;
     padding-left: 20%;
@@ -69,7 +69,7 @@ a{
 
 
 .projectRow {
-    background-color: black;
+    background-color: white;
     display: flex;
     max-width: 1500px;
     margin-left: 10%;
@@ -83,12 +83,14 @@ a{
     margin-top: 80px;
     margin-bottom: 80px;
     padding: 30px 0px 30px 60px;
-    background: linear-gradient(130deg, rgba(254,0,0,1) 0%,
+    
+    /*background: linear-gradient(130deg, rgba(254,0,0,1) 0%,
                                         rgba(232,63,63,1) 20%, 
                                         rgba(255,162,0,1) 40%, 
                                         rgba(29,253,77,1) 60%, 
                                         rgba(207,39,253,1) 80%, 
-                                        rgba(254,255,2,1) 100%);
+                                        rgba(254,255,2,1) 100%);*/
+    background: #002060;
     border-radius: 5%;
     border-width: 1px;
     border-style: solid;
@@ -96,7 +98,7 @@ a{
 }
 
 .blackSquare{
-    background-color: #3C4043;
+    background-color: #2780E3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +114,7 @@ a{
 
 .projectImage img{
     max-width: 90%;
-    box-shadow: 10px 10px 0px 0px black;
+    box-shadow: 10px 10px 0px 0px #002060;
 }
 
 .projectText{
@@ -124,7 +126,7 @@ a{
 footer{
     display: flex;
     font-size: xx-small;
-    background: #3C4043;
+    background: #7f9ec7;
     height: 50px;
     justify-content: center;
     align-items: center;
