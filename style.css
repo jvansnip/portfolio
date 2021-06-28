@@ -1,8 +1,7 @@
-
 body{
     background-color: black;
     color: white;
-    font-family: Century Gothic, helvetica, Arial, sans-serif;
+    font-family: 'century gothic', sans-serif;
     max-width: 2000px;
     margin: auto;
 }
@@ -11,27 +10,126 @@ a{
     color: white;
 }
 
-header{
+.headertext{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.profession{
+    font-size: 50px;
+    padding-top: 20vh;
+}
+
+.myName{
+    font-size: 30px;
+}
+
+.bottomline{
     border-bottom: white;
     border-bottom-style: solid;
     border-bottom-width:thin;
+}
+.indexBackground{
+    height: 100vh;
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("Images/laptopData.jpg");
+    background-size:cover;
+    color: white;
+    border-bottom: white;
+    border-bottom-style: solid;
+    border-bottom-width:thin;
+}
+
+.textFrame{
+    background-color: #202124;
+    display: flex;
+    max-width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-bottom: white;
+    border-bottom-style: solid;
+    border-bottom-width:thin;
+    border-top: white;
+    border-top-style: solid;
+    border-top-width:thin;
+    font-size: xx-large;
+}
+
+
+
+
+.projectRow {
+    background-color: black;
+    display: flex;
+    max-width: 1500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-evenly;
+    
+}
+
+.linearGradient{
+    max-width: 30%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 30px 0px 30px 60px;
+    background: linear-gradient(130deg, rgba(254,0,0,1) 0%,
+                                        rgba(232,63,63,1) 20%, 
+                                        rgba(255,162,0,1) 40%, 
+                                        rgba(29,253,77,1) 60%, 
+                                        rgba(207,39,253,1) 80%, 
+                                        rgba(254,255,2,1) 100%);
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: solid;
+    max-width: 450px;
+
+}
+
+.blackSquare{
+    background-color: #202124;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: -120px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    max-width: 500px;
+    height: 250px;
 }
 
 
 img{
-    max-width: 80%;
-    box-shadow: 5px 5px 5px grey;
+    max-width: 100%;
+    margin:5px;
 }
 
+.projectImage{
+    max-width: 50%;
+    
 
-.projectRow {
+}
+
+.projectText{
+    margin-left: 20px;
     display: flex;
-    margin-right: 10%;
-    margin-left: 10%;
-    border-bottom: white;
-    border-bottom-style: solid;
-    border-bottom-width:thin;
+    flex-direction: column;
+    flex-grow: 0;
+    max-width: 60%;
 }
+
+
 
 .baseProjectArea{
     padding: 0px 30px 30px 30px;
@@ -61,6 +159,22 @@ img{
         flex-direction: column;
     }
 
+    .indexBackground{
+        background-position:center;
+    }
+    .profession{
+        font-size: 20px;
+    }
 
+    .myName{
+        font-size: 15px;
+    }
+
+
+
+
+    .blackSquare{
+        flex-direction: column;
+    }
 }
 
